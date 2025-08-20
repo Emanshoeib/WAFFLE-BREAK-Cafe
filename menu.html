@@ -46,7 +46,7 @@
             align-items: center;
             padding: 40px 20px;
         }
-        iframe {
+        .pdf-container iframe {
             width: 80%;
             height: 80vh;
             border: 2px solid rgba(245, 163, 177, 0.829);
@@ -70,6 +70,21 @@
             text-align: center;
             padding: 10px;
             direction: rtl;
+        }
+
+
+        @media only screen and (max-width: 768px) {
+            .pdf-container iframe {
+                width: 95%;
+                height: 60vh;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .pdf-container iframe {
+                width: 100%;
+                height: 50vh;
+            }
         }
     </style>
 </head>
@@ -99,7 +114,3 @@
     </footer>
 </body>
 </html>
-
-</html>
-
-
