@@ -41,6 +41,7 @@
         }
         .pdf-container {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             padding: 40px 20px;
@@ -50,6 +51,17 @@
             height: 80vh;
             border: 2px solid rgba(245, 163, 177, 0.829);
             border-radius: 10px;
+        }
+        .pdf-container p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+        .pdf-container p a {
+            color: #d74da1;
+            text-decoration: underline;
         }
         footer {
             background-color: rgba(245, 163, 177, 0.829);
@@ -72,16 +84,20 @@
 
     <section class="pdf-container">
         <iframe src="menu.pdf" type="application/pdf"></iframe>
+        <p>⚠️ إذا لم يظهر المنيو على جهازك، يمكنك <a href="menu.pdf" target="_blank">فتحه مباشرة هنا</a></p>
     </section>
 
     <footer>
         <p>جميع الحقوق محفوظه © 2025 - كافيه WAFFLE BREAK</p>
-         <p>
-        <a href="index.html">الرئيسية</a> |
-        <a href="menu.html">المنيو</a> |
-        <a href="about.html">عن الكافيه</a> |
-        <a href="contact.html">تواصل معنا</a>
-         </p>
+        <p>
+            <a href="index.html">الرئيسية</a> |
+            <a href="menu.html">المنيو</a> |
+            <a href="about.html">عن الكافيه</a> |
+            <a href="contact.html">تواصل معنا</a>
+        </p>
     </footer>
 </body>
 </html>
+
+</html>
+
